@@ -5,7 +5,6 @@
 ## Contact Information
 
 - Email: ovishnevsky992@gmail.com
-- Codewars: [ovishnevsky992](https://www.codewars.com/users/ovishnevsky992)
 - GitHub: [github.com/ovishnevsky992](https://github.com/ovishnevsky992)
 - Discord: [ovishnevsky992](https://github.com/ovishnevsky992)
 
@@ -34,7 +33,7 @@ I am a dedicated and passionate junior developer with a strong foundation in pro
   - **Skills Used**: Markdown, GitHub
   - **Code**: [GitHub Repository](https://github.com/ovishnevsky992/rsschool-cv)
 
-- **Codewars**
+- **Codewars **
   - **Description**: Friday 13th or Black Friday is considered as unlucky day. Calculate how many unlucky days are in the given year.
 Find the number of Friday 13th in the given year.
 Input: Year in Gregorian calendar as integer.
