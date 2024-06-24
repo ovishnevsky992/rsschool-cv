@@ -16,7 +16,7 @@ I am a dedicated and passionate junior developer with a strong foundation in pro
 
 ## Skills
 
-- **Programming Languages**: JavaScript
+- **Programming Languages**: JavaScript, HTML, CSS
 - **Frameworks**: React
 - **Version Control**: Git, GitHub
 - **Tools**: Visual Studio Code
