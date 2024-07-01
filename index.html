@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <h1 id="oleg-vishnevsky">Oleg Vishnevsky</h1>
+
+    <p>
+      <img
+        src="https://avatars.githubusercontent.com/u/172586552?v=4"
+        alt="Photo"
+      />
+    </p>
+
+    <h2 id="contact-information">Contact Information</h2>
+
+    <ul>
+      <li>Email: ovishnevsky992@gmail.com</li>
+      <li>
+        GitHub:
+        <a href="https://github.com/ovishnevsky992"
+          >github.com/ovishnevsky992</a
+        >
+      </li>
+      <li>
+        Discord: <a href="https://github.com/ovishnevsky992">ovishnevsky992</a>
+      </li>
+    </ul>
+
+    <h2 id="about-me">About Me</h2>
+
+    <p>
+      I am a dedicated and passionate junior developer with a strong foundation
+      in programming and a relentless drive to learn and grow in the tech
+      industry. My goal is to contribute to innovative projects while
+      continually enhancing my skills. I excel in problem-solving and thrive in
+      collaborative environments.
+    </p>
+
+    <hr />
+
+    <h2 id="skills">Skills</h2>
+
+    <ul>
+      <li><strong>Programming Languages</strong>: JavaScript, HTML, CSS</li>
+      <li><strong>Frameworks</strong>: React</li>
+      <li><strong>Version Control</strong>: Git, GitHub</li>
+      <li><strong>Tools</strong>: Visual Studio Code</li>
+    </ul>
+
+    <hr />
+
+    <h2 id="experience">Experience</h2>
+
+    <h3 id="personal-projects">Personal Projects</h3>
+
+    <ul>
+      <li>
+        <p><strong>Resume CV Project</strong></p>
+
+        <ul>
+          <li>
+            <strong>Description</strong>: This markdown-based CV, showcasing my
+            skills and experiences.
+          </li>
+          <li><strong>Skills Used</strong>: Markdown, GitHub</li>
+          <li>
+            <strong>Code</strong>:
+            <a href="https://github.com/ovishnevsky992/rsschool-cv"
+              >GitHub Repository</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>**Codewars **</p>
+        <ul>
+          <li>
+            <strong>Description</strong>: Friday 13th or Black Friday is
+            considered as unlucky day. Calculate how many unlucky days are in
+            the given year. Find the number of Friday 13th in the given year.
+            Input: Year in Gregorian calendar as integer. Output: Number of
+            Black Fridays in the year as an integer. unluckyDays(2015) == 3
+            unluckyDays(1986) == 1
+          </li>
+          <li><strong>Skills Used</strong>: Markdown, JavaScript</li>
+          <li><strong>Code</strong>:</li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="language-javascript highlighter-rouge">
+      <div class="highlight">
+        <pre class="highlight"><code>
+            function unluckyDays(year){
+                let unlucky = 0;
+                for (var i = 0; i < 12; i++) {
+                    if(new Date(year, i, 13).getDay() === 5){
+                    unlucky++;
+                    }
+                }
+            return unlucky;
+            }
+    </code></pre>
+      </div>
+    </div>
+
+    <hr />
+
+    <h2 id="education">Education</h2>
+
+    <ul>
+      <li>
+        <p><strong>B.S. in Computer Science</strong></p>
+
+        <ul>
+          <li>University</li>
+          <li>Graduated: 2018</li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Completed Courses and Trainings</strong></p>
+        <ul>
+          <li><strong>RSSchool</strong> - JavaScript</li>
+          <li>
+            <h2 id="javascript-algorithms-and-data-structures">
+              <strong>JavaScript Algorithms and Data Structures</strong> -
+              Coursera
+            </h2>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2 id="english-proficiency">English Proficiency</h2>
+
+    <ul>
+      <li><strong>Level</strong>: Intermediate (B2)</li>
+      <li>
+        <strong>Practice</strong>: Engaged in daily conversations with
+        international peers, participated in English-speaking tech meetups, and
+        completed online courses in English.
+      </li>
+    </ul>
+  </body>
+</html>
